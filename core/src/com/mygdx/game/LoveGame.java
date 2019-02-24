@@ -14,6 +14,7 @@ public class LoveGame extends Game {
 	public SpriteBatch batch;
 	public BitmapFont font;
 	public static int money;
+	public static int health;
 	
 	@Override
 	public void create () {

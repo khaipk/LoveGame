@@ -18,6 +18,9 @@ public class MenuScreen implements Screen{
 		
 		rain = Gdx.audio.newMusic(Gdx.files.internal("rain.mp3"));
 		rain.setLooping(true);
+		
+		game.money = 0;
+		game.health = 10;
 	}
 	
 	@Override
